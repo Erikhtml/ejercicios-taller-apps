@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    position: absolute; 
+    border: 5px solid red ;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+main{
+    display: block;
+}
+
+header{
+    border: 4px solid blueviolet; 
+    height: 95px;
+    text-align: center;
+    padding-top: 42px;
+    padding-right: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px; 
+}
+
+.caja-secundaria{
+    border: 4px solid cyan;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.caja-contsec{
+    border: 4px solid lightgreen; 
+    height: 451px;
+    text-align: center;
+    line-height: 2px;
+    padding-top: 5px;
+}
+
+.caja-subbarra{
+    border: 4px solid blue; 
+    height: 456px;
+}
+
+.caja-subbarra section article{
+    border: 4px solid orange; 
+    height: 75px;
+    text-align: center;
+}
+    
+.caja-subbarra section section{
+    border: 4px solid fuchsia;
+    height: 365px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px; 
+}
+
+ 

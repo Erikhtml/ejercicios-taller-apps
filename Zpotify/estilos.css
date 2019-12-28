@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+main {
+    display: block:
+}
+
+.caja-principal {
+    position:relative;
+    top:10px;
+    left:380px;
+    width:320px;
+    height:560px;
+    border-radius: 20px;
+    border: lightblue 1px solid;
+    background : #E9FEFA;
+    text-align: center;
+}
+
+h1 {
+    font-size:20px;
+    font-family: calibri light;
+}
+
+.caja-artistas {
+    display: grid;
+    grid-gap: 10px 10px;
+    grid-template-columns: 85px 85px 85px; 
+    justify-content: center;
+}
+
+article {
+    padding-top: 5px;
+    border-radius: 5px;
+    background : #0BD8B3;
+    width:85px;
+    height:85px;
+}
+
+img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    padding: 20;
+}
+
+.nombre-artista {
+    color: white;
+    font-size:10px;
+    font-family:Courier;
+}
